@@ -74,5 +74,9 @@ function closeModal() {
 //   document.querySelector('.popupe-images img').scr=images.getAttribute('scr');
 //   }
 // });
+    document.querySelector('.pop-images span').onclick=()=>{
+      document.querySelector('.pop-images').style.display='none';
+    }
+   
 
 
